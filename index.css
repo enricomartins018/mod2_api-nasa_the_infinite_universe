@@ -1,16 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
-    background-color: aliceblue;
+    background-image: url(https://cdn.wallpapersafari.com/11/59/7iznBo.jpg);
+    background-color: rgba(240, 248, 255, 0.507);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 3em;
 }
 
-.div1{
+.divpai{
+    background-color: rgba(0, 0, 0, 0.466);
+    border: #33ff334b solid 0.3em;
+    border-radius: 50em;  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(2, 0, 128, 0.514);
-    box-shadow: 0.5em 0.5em 0.5em 0.5em rgb(0, 0, 0);
+    text-align: center;
+    width: 76em;
+}
+
+.divfilho{
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 50em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #33FF33;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-text-stroke-width: 0.1em;
+    -webkit-text-stroke-color: #000000;
+    font-size: 1.5em;
+    border-radius: 50em; 
+   
+}
+
+.titulo2{
+    font-size: 1em;
+    text-align: center;
+    color: #33FF33;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.calendario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 1em;
+    gap: 0.5em;
+    padding: 1em;
+    font-size: 0.9em;
+    color: #33FF33;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tempo{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1em;
+    text-align: center;
+    width: 8em;
+    font-size: 1.2em;
+    background-color: #33FF33;
+}
+
+.letsgo{
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #33FF33;
+    text-align: center;
+}
+
+.letsgo:hover{
+    transform: scale(1.2);
 }
