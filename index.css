@@ -48,7 +48,6 @@ body{
     -webkit-text-stroke-color: #000000;
     font-size: 1.5em;
     border-radius: 50em; 
-   
 }
 
 .titulo2{
@@ -89,6 +88,7 @@ body{
     text-align: center;
     background-color: #33FF33;
     text-align: center;
+    border: solid 0.2em #2D0B11;
 }
 
 .letsgo:hover{
