@@ -1,19 +1,19 @@
 $('#submit').click(function (event){
     event.preventDefault()
-    var dateInput = $('#birthdayInput').val()
+    const dateInput = $('#tempo').val()
     $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=pYIbv70Np8uaQJDIZumLpNB2oOJWcChnW7gwsgk9&date=${dateInput}`,
+    url: `https://api.nasa.gov/planetary/apod?api_key=q8VDriYTBOXVumiUss7P6vDW1UO9SceEy1zEbaAJ&date=${dateInput}`,
     success: function (answer) {
         if (answer.media_type == "video") {
-            showsVid(answer)
+            mostrandoVideo(answer)
         } else {
-            showsImg(answer)
+            mostrandoImagem(answer)
         }
     }
 })
 })
 
-function showsImg(answer) {
+function mostrandoImagem(answer) {
     $('#imgDiv').css('display', 'flex')
     $('#vidDiv').css('display', 'none')
     $('#img-api').attr("src", answer.url)
@@ -21,7 +21,7 @@ function showsImg(answer) {
     $('#container-media_p').text(answer.explanation)
 }
 
-function showsVid(answer) {
+function mostrandoVideo(answer) {
     $('#vidDiv').css('display', 'flex')
     $('#imgDiv').css('display', 'none')
     $('#vid-api').attr("src", answer.url)

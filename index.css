@@ -158,4 +158,6 @@ footer{
     align-items: center;
     text-align: center;
     color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
+
