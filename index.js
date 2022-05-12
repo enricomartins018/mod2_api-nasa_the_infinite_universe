@@ -1,4 +1,4 @@
-$('#submit').click(function (event){
+$('#viajar').click(function (event){
     event.preventDefault()
     const dateInput = $('#tempo').val()
     $.ajax({
