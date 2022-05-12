@@ -2,9 +2,12 @@
     margin: 0%;
     padding: 0%;
 }
+
 a{
     text-decoration: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
 
 body{
     background-image: url(https://www.bu.edu/files/2020/04/Resize-iStock-1139263302.jpg);
@@ -20,7 +23,7 @@ body{
 
 .divpai{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.582);
     border-radius: 50em;  
     display: flex;
     flex-direction: column;
@@ -30,12 +33,13 @@ body{
 }
 
 .divfilho{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.212), rgba(0, 0, 0, 0.37));
     border-radius: 50em;  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10em;
 }
 
 .titulo1{
@@ -45,14 +49,15 @@ body{
     align-items: center;
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 1.5em;
+    font-size: 2em;
     border-radius: 50em; 
+    font-family: 'Bowlby One', cursive;
 }
 
 .titulo2{
     font-size: 1em;
     text-align: center;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 

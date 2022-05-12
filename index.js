@@ -1,11 +1,16 @@
-$(`#letsgo`).click(function(){
-
+$('#submit').click(function (e){
+    e.preventDefault()
+    var dateInput = $('#birthdayInput').val()
     $.ajax({
-        url: 'https://api.nasa.gov/planetary/apod?api_key=hxEuR6kaHxbzJMGWORqGp0wSaZiNq8uBGYOqllUk&date=' + $('#data').val(),
-        success: function(result){
-            $('#titulo').html(result.explanation);
-            $('#foto').html(`<img src="${result.url}">`);
-            $('#copyright').html(result.copyright);
-        } 
-    })   
-    });
+    url: `https://api.nasa.gov/planetary/apod?api_key=pYIbv70Np8uaQJDIZumLpNB2oOJWcChnW7gwsgk9&date=${dateInput}`,
+    success: function (answer) {
+        if (answer.media_type == "video") {
+            console.log('entrou')
+            console.log(answer)
+            showsVid(answer)
+        } else {
+            showsImg(answer)
+        }
+    }
+})
+})

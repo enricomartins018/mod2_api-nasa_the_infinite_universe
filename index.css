@@ -2,9 +2,12 @@
     margin: 0%;
     padding: 0%;
 }
+
 a{
     text-decoration: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
 
 body{
     background-image: url(https://www.bu.edu/files/2020/04/Resize-iStock-1139263302.jpg);
@@ -45,15 +48,18 @@ body{
     align-items: center;
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 1.5em;
+    font-size: 2em;
     border-radius: 50em; 
+    font-family: 'Bowlby One', cursive;
 }
 
 .titulo2{
     font-size: 1em;
     text-align: center;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     text-shadow: black 0.1em 0.1em 0.2em;
+    width: 80em;
+    border-radius: 1em;
 }
 
 .calendario{
