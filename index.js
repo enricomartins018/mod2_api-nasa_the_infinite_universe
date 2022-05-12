@@ -17,14 +17,14 @@ function mostrandoImagem(answer) {
     $('#imgDiv').css('display', 'flex')
     $('#vidDiv').css('display', 'none')
     $('#img-api').attr("src", answer.url)
-    $('#container-media_h2').text(answer.title)
-    $('#container-media_p').text(answer.explanation)
+    $('#mediaTitulo').text(answer.title)
+    $('#mediaParagrafo').text(answer.explanation)
 }
 
 function mostrandoVideo(answer) {
     $('#vidDiv').css('display', 'flex')
     $('#imgDiv').css('display', 'none')
     $('#vid-api').attr("src", answer.url)
-    $('#container-media_h2').text(answer.title)
-    $('#container-media_p').text(answer.explanation)
+    $('#mediaTitulo').text(answer.title)
+    $('#mediaParagrafo').text(answer.explanation)
 }
