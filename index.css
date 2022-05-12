@@ -2,34 +2,35 @@
     margin: 0%;
     padding: 0%;
 }
-
 a{
     text-decoration: none;
 }
 
 body{
-    background-image: url(https://cdn.wallpapersafari.com/11/59/7iznBo.jpg);
-    background-color: rgba(240, 248, 255, 0.507);
+    background-image: url(https://www.bu.edu/files/2020/04/Resize-iStock-1139263302.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #000048;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 3em;
-}
-
-.divpai{
-    background-color: rgba(0, 0, 0, 0.466);
-    border: #33ff334b solid 0.3em;
-    border-radius: 50em;  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.divpai{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 50em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     text-align: center;
-    width: 76em;
 }
 
 .divfilho{
-    background-color: rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
     border-radius: 50em;  
     display: flex;
     flex-direction: column;
@@ -42,10 +43,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #33FF33;
+    color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
-    -webkit-text-stroke-width: 0.1em;
-    -webkit-text-stroke-color: #000000;
     font-size: 1.5em;
     border-radius: 50em; 
 }
@@ -53,7 +52,7 @@ body{
 .titulo2{
     font-size: 1em;
     text-align: center;
-    color: #33FF33;
+    color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -67,7 +66,7 @@ body{
     gap: 0.5em;
     padding: 1em;
     font-size: 0.9em;
-    color: #33FF33;
+    color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -77,7 +76,7 @@ body{
     text-align: center;
     width: 8em;
     font-size: 1.2em;
-    background-color: #33FF33;
+    background-color: #ffffff;
 }
 
 .letsgo{
@@ -86,11 +85,45 @@ body{
     padding: 1em;
     font-size: 1.5em;
     text-align: center;
-    background-color: #33FF33;
+    background-color: rgba(25, 0, 255, 0.473);
+    border: solid 0.1em white;
     text-align: center;
-    border: solid 0.2em #2D0B11;
+    color: #ffffff;
 }
 
 .letsgo:hover{
     transform: scale(1.2);
+}
+
+.divbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
+    box-shadow: 1em 1em 1em 1em black;
+    color: #ffffff;
+    border-radius: 50em;
+    padding: 1em;
+    width: 50em;
+}
+
+.dev{
+    align-items: center;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50em;
+    padding: 1em;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
+    box-shadow: 1em 1em 1em 1em #000000;
+    width: 20em;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
 }
