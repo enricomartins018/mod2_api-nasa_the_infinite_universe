@@ -150,3 +150,12 @@ footer{
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+.divApi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
