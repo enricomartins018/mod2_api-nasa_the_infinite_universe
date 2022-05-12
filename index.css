@@ -20,7 +20,7 @@ body{
 
 .divpai{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.664);
     border-radius: 50em;  
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body{
 }
 
 .divfilho{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.212), rgba(0, 0, 0, 0.37));
     border-radius: 50em;  
     display: flex;
     flex-direction: column;
