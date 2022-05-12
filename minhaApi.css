@@ -19,116 +19,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.divpai{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.582);
-    border-radius: 50em;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     text-align: center;
-}
-
-.divfilho{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 255, 0.212), rgba(0, 0, 0, 0.37));
-    border-radius: 50em;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10em;
-}
-
-.titulo1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 2em;
-    border-radius: 50em; 
-    font-family: 'Bowlby One', cursive;
-}
-
-.titulo2{
-    font-size: 1em;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .calendario{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 1em;
-    gap: 0.5em;
-    padding: 1em;
-    font-size: 0.9em;
-    color: #ffffff;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+.selecioneData{
+    font-size: 2em;
+    font-family: 'Bowlby One', cursive;
 }
 
 .tempo{
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 238, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
     border-radius: 1em;
-    text-align: center;
-    width: 8em;
-    font-size: 1.2em;
-    background-color: #ffffff;
-}
-
-.letsgo{
-    border-radius: 1em;
-    text-align: center;
-    padding: 1em;
-    font-size: 1.5em;
-    text-align: center;
-    background-color: rgba(25, 0, 255, 0.473);
-    border: solid 0.1em white;
-    text-align: center;
-    color: #ffffff;
-}
-
-.letsgo:hover{
-    transform: scale(1.2);
-}
-
-.divbtn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
-    box-shadow: 1em 1em 1em 1em black;
-    color: #ffffff;
-    border-radius: 50em;
-    padding: 1em;
-    width: 50em;
-}
-
-.dev{
-    align-items: center;
-    font-size: 1em;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 50em;
-    padding: 1em;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
-    box-shadow: 1em 1em 1em 1em #000000;
-    width: 20em;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.301), rgba(0, 0, 0, 0.37));
 }
