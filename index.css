@@ -139,3 +139,14 @@ footer{
 .copyright{
     color: white;
 }
+
+.divViagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
