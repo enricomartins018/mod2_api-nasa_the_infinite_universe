@@ -16,7 +16,7 @@ $('#viajar').click(function (event){
 function mostrandoImagem(answer) {
     $('#imgDiv').css('display', 'flex')
     $('#vidDiv').css('display', 'none')
-    $('#img-api').attr("src", answer.url)
+    $('#imgApi').attr("src", answer.url)
     $('#mediaTitulo').text(answer.title)
     $('#mediaParagrafo').text(answer.explanation)
 }
